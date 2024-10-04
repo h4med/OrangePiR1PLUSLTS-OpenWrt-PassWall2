@@ -14,7 +14,7 @@
 
 ![بلوک دیاگرام کلی استفاده از بورد به عنوان روتر](./pics/2_openwrt_passwall2_blockdiagram.png "OrangePi R1 PLUS LTS as a router")
 
-**نکته۱**: در این آموزش ممکن است لینک‌هایی به سایت‌های فروش داده شود. این لینکها صرفا جهت راهنمایی خودم و شماست و هیچگونه جنبه‌ی تبلیغاتی نداشته و من نفعی از آن نمی‌برم.
+**نکته۱**: در این آموزش ممکن است لینک‌هایی به سایت‌های فروش یا آموزشهای دیگر داده شود. این لینکها صرفا جهت راهنمایی خودم و شماست و هیچگونه جنبه‌ی تبلیغاتی نداشته و من نفعی از آن نمی‌برم.
 
 **نکته۲**: شما می‌توانید با راهنماهای موجود در یوتیوب، مثل [این](https://www.youtube.com/watch?v=m-BAyaHNlV8)  یا سلسله راهنماهای [اینجا](https://ivpn.pro/category/openwrt/) از پایه OpenWrt را نصب کرده و سپس PassWall2 را نصب کرده و تک تک روشها را پیاده‌سازی کنید. اما بدلیل مشکلات اینترنت در ایران انجام این مراحل مشکلات زیادی دارد و همچنین ممکن است انجام آن برای همه راحت نباشد. استفاده از یک Image آماده کار شما را راحت خواهد کرد.
 
@@ -32,12 +32,14 @@
 و همچنین لوازم جانبی مثل لپتاپ/کامپیوتر با پورت میکرو SD یا داشتن یک تبدیل میکروSD به USB و کابل شبکه برای ارتباط با روتر/SBC.
 
 ## گام دوم: ریختن Image
-به مرور Imageهای آماده مختلف را برای استفاده با این بورد قرار خواهم داد. Image مدنظر خود را از جدول زیر دانلود کنید.
+به مرور Imageهای آماده به صورت Shrink و فشرده شده مختلف را برای استفاده با این بورد قرار خواهم داد. Image مدنظر خود را از جدول زیر دانلود کنید.
 
-| عنوان | لینک دانلود |
-| -------- | -------- |
-| خام  | [لینک](https://github.com/h4med/OrangePiR1PLUSLTS-OpenWrt-PassWall2/raw/refs/heads/main/img1_WarpPlus_v1.zip)  |
-| خام+WarpPlus  |  [لینک](https://github.com/h4med/OrangePiR1PLUSLTS-OpenWrt-PassWall2/raw/refs/heads/main/img1_WarpPlus_v1.zip) |
+| عنوان | لینک دانلود | توضیحات |
+| -------- | -------- | -------------------------------- |
+| خام  | [لینک](https://github.com/h4med/OrangePiR1PLUSLTS-OpenWrt-PassWall2/raw/refs/heads/main/img0_Raw_v1.zip)   | OpenWrt 23.05 + PassWall2 |
+| خام+WarpPlus  |  [لینک](https://github.com/h4med/OrangePiR1PLUSLTS-OpenWrt-PassWall2/raw/refs/heads/main/img1_WarpPlus_v1.zip) | OpenWrt 23.05 + PassWall2 + WarpPlus Service |
+
+
 
 
 </div>
